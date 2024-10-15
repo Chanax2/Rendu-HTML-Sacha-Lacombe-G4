@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="connexion.css" />
+    <title>Créer un Compte Urssaf</title>
+  </head>
+  <body>
+    <header class="position_fixed d-flex align-items-center" id="header">
+      <img src="image/logo_Ursaff.png" alt="logo_Ursaff" id="logo_Ursaff" />
+    </header>
+
+    <main>
+      <h1>Créer votre compte Urssaf</h1>
+      <hr class="ligne-bleue" />
+      <p class="">Veuillez remplir le formulaire ci-dessous :</p>
+
+      <form class="form-container">
+        <div class="form-group">
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="surname">Prénom :</label>
+          <input type="text" id="surname" name="surname" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+            <!-- mais pourquoi il marche pas lui! -->
+          <label for="password">Mot de passe :</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Confirmer le mot de passe :</label>
+          <input type="password" id="confirm-password" name="confirm-password" required />
+        </div>
+        <div class="form-group">
+          <button type="submit" class="bouton-submit">Créer un compte</button>
+        </div>
+      </form>
+    </main>
+
+    <!-- je met le même footer car c'est le cas sur le site servant d'inspiration -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="contact">
+          <h3>Contact</h3>
+          <p>Email: @urssaf.fr ; @info.urssaf.fr</p>
+          <p>Téléphone: 3698  (vrai numéro donc à pas appeler)</p>
+        </div>
+
+        <div class="reseaux">
+          <h3>Suivez-nous (les vraies réseaux de l'Ursaff)</h3>
+          <a href="https://www.facebook.com/urssafofficiel/photos" target="_blank">Facebook</a> |
+          <a href="https://x.com/urssaf" target="_blank">Twitter</a> |
+          <a href="https://www.linkedin.com/company/urssaf-caisse-nationale/?originalSubdomain=fr" target="_blank">LinkedIn</a>
+        </div>
+
+        <div class="liens">
+          <h3>Liens Utiles</h3>
+          <a href="https://www.urssaf.fr/accueil.html">Découvrir l'Ursaff (inspiration du site)</a> |
+          <a href="#">À propos</a> |
+          <a href="#">Mentions légales</a>
+        </div>
+      </div>
+      <p>&copy; 2024 Tous droits réservés à moi!!</p>
+    </footer>
+  </body>
+</html>
